@@ -20,3 +20,10 @@ jobs:
 
     - name: Build project with Maven
       run: mvn -B package --file pom.xml
+     
+    - uses: actions/upload-artifact@v3
+      with:
+       name: github-action-maven-tutorial-1.0-SNAPSHOT-jar-with-dependencies.jar
+       path: /target/github-action-maven-tutorial-1.0-SNAPSHOT-jar-with-dependencies.jar 
+
+  
