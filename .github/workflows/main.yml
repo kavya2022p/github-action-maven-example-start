@@ -24,6 +24,6 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
        name: github-action-maven-tutorial-1.0-SNAPSHOT-jar-with-dependencies.jar
-       path: /target/github-action-maven-tutorial-1.0-SNAPSHOT-jar-with-dependencies.jar 
+       path:  /home/runner/work/github-action-maven-example-start/github-action-maven-example-start/target/github-action-maven-tutorial-1.0-SNAPSHOT-jar-with-dependencies.jar 
 
   
